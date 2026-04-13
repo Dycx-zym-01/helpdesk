@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>工单系统</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">GD</div>
+        <div>
+          <p class="eyebrow">Service Desk</p>
+          <h1>工单系统</h1>
+        </div>
+      </div>
+
+      <section class="role-card">
+        <p class="eyebrow">角色切换</p>
+        <div class="role-switch" id="roleSwitch"></div>
+      </section>
+
+      <nav class="nav-group" id="navGroup"></nav>
+
+      <section class="quick-card" id="sidebarCardA"></section>
+    </aside>
+
+    <main class="main-panel">
+      <header class="hero">
+        <div>
+          <p class="eyebrow" id="heroEyebrow"></p>
+          <h2 id="heroTitle"></h2>
+          <p class="hero-copy" id="heroCopy"></p>
+        </div>
+        <div class="hero-actions" id="heroActions"></div>
+      </header>
+
+      <section class="stats-grid" id="statsGrid"></section>
+
+      <section class="workspace" id="workspace">
+        <div class="content-column" id="contentColumn"></div>
+        <aside class="detail-panel" id="detailPanel"></aside>
+      </section>
+
+      <section class="bottom-grid" id="bottomGrid"></section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

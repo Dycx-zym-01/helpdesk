@@ -1,0 +1,1 @@
+window.__HELPDESK_RUNTIME_CONFIG__ = {}
