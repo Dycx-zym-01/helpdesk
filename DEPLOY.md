@@ -65,7 +65,7 @@ app:
 ## 二、首次部署
 
 如果服务器已经跑起来过，并且 `nginx`、`mysql`、`helpdesk.service` 都配好了，可以直接跳到“日常更新部署”。
-
+mk
 ### 1. 安装基础环境
 
 在 Ubuntu 服务器执行：
@@ -145,7 +145,6 @@ systemctl enable helpdesk
 ### 5. 配置 Nginx
 
 在 Ubuntu 服务器执行：
-
 ```bash
 cat > /etc/nginx/sites-available/helpdesk <<'EOF'
 server {
